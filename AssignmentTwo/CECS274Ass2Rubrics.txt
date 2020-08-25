@@ -1,0 +1,23 @@
+Standards & Rules:
+
+(a) -5  More than one constructor writes directlty to private data attributes.
+
+(b) -5 Did not use delegation correctly.
+
+(c) -3 Redundant private data
+
+(d) -3 Non private class attribute for data
+
+(e) -10 Missing required first line of ID comment
+
+(f) -3 Missing @author
+
+(g) -5 Minor output text differences
+
+(h) -10 Minor output data, e.g., true/false, center, radius values, differences
+
+(i) -30 Major output data, e.g., true/false, center, radius values, differences
+
+(j) -15 Runtime error causing program termination
+
+(k) -60 Does not compile

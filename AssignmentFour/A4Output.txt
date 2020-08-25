@@ -1,0 +1,43 @@
+List Empty
+List Empty
+List Empty
+
+Item not found
+Item Not Found
+Item Not Found
+
+Original list
+Do or do not. There is no try. 
+
+Sorted Original List
+Do There do is no not. or try. 
+
+Empty List
+
+
+Front is Do
+Rear is try.
+Count is 8
+Is There present? true
+Is Dog present? false
+
+List with junk
+junk Do or moremorejunk do not. There is no try. morejunk 
+Count is 11
+
+Untouched copy of the list
+Do or do not. There is no try. 
+
+List with junk removed
+Do or do not. There is no try. 
+Count is 8
+
+
+Untouched copy of the list
+Do or do not. There is no try. 
+
+List after removing all items
+
+
+Copy of List after removing all items
+Do or do not. There is no try. 

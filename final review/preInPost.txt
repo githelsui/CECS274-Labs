@@ -1,0 +1,38 @@
+private class Node
+{
+	public Node(int item)
+	{
+		mLeft = mRight = null;
+		mData = item;
+	}
+
+	public void preOrder()
+	{
+		visit();
+		if(mLeft != null) mLeft.preOrder();
+		if(mRight != null) mRight.preOrder();
+	}
+
+	public void inOrder()
+	{
+		if(mLeft != null) mLeft.inOrder();
+		visit();
+		if(mRight != null) mRight.inOrder();
+	}
+
+	public void postOrder()
+	{
+		if(mLeft != null) mLeft.postOrder();
+		if(mRight != null) mRight.postOrder();
+		visit();
+	}
+
+	private void visit()
+	{
+		System.out.println(mData);
+	}
+
+	private Node mLeft;
+	private Node mRight;
+	private int mData;
+}
